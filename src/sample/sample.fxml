@@ -16,12 +16,17 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="btnSignUp" layoutX="251.0" layoutY="253.0" mnemonicParsing="false" text="Sign Up">
+      <Button fx:id="btnStuSignUp" layoutX="125.0" layoutY="264.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="131.0" text="Student Sign Up">
          <font>
-            <Font size="20.0" />
+            <Font size="14.0" />
          </font>
       </Button>
       <Button fx:id="btnProfLog" layoutX="349.0" layoutY="154.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="122.0" text="Professor Log In">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnProfSignUp" layoutX="345.0" layoutY="264.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="131.0" text="Professor Sign Up">
          <font>
             <Font size="14.0" />
          </font>

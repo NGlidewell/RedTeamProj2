@@ -4,20 +4,24 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Label layoutX="183.0" layoutY="31.0" text="Student Log In">
+      <Label layoutX="158.0" layoutY="44.0" text="Professor Sign Up">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <TextField fx:id="txtStuEmail" layoutX="200.0" layoutY="127.0" prefHeight="30.0" prefWidth="200.0" promptText="Email">
+      <TextField layoutX="200.0" layoutY="124.0" prefHeight="30.0" prefWidth="200.0" promptText="Email">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtStuPassword" layoutX="200.0" layoutY="224.0" prefHeight="39.0" prefWidth="200.0" promptText="Password">
+      <TextField layoutX="200.0" layoutY="200.0" prefHeight="30.0" prefWidth="200.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="200.0" layoutY="286.0" prefHeight="30.0" prefWidth="200.0" promptText="Name">
          <font>
             <Font size="18.0" />
          </font>
