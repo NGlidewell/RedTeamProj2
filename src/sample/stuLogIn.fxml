@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Label layoutX="183.0" layoutY="31.0" text="Student Log In">
@@ -22,5 +21,7 @@
             <Font size="18.0" />
          </font>
       </TextField>
+      <Button fx:id="btnStuLog" layoutX="200.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleStuLog" prefHeight="39.0" prefWidth="60.0" text="Log In" />
+      <Button fx:id="btnStuLogGoBack" layoutX="340.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleStuLogGoBack" prefHeight="39.0" prefWidth="60.0" text="Go Back" />
    </children>
 </AnchorPane>

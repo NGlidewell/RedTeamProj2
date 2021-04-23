@@ -19,5 +19,7 @@
          <font>
             <Font size="18.0" />
          </font></TextField>
+      <Button fx:id="btnProfLog" layoutX="200.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleBtnProfLog" prefHeight="39.0" prefWidth="60.0" text="Log In" />
+      <Button fx:id="btnProfLogGoBack" layoutX="348.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleBtnProfLogGoBack" prefHeight="39.0" prefWidth="60.0" text="Go Back" />
    </children>
 </AnchorPane>

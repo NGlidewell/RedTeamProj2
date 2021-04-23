@@ -26,5 +26,7 @@
             <Font size="18.0" />
          </font>
       </TextField>
+      <Button fx:id="btnProfSignUp" layoutX="200.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleBtnProfSignUp" prefHeight="39.0" prefWidth="66.0" text="Sign Up" />
+      <Button fx:id="btnProfSignGoBack" layoutX="334.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleBtnSignGoBack" prefHeight="39.0" prefWidth="66.0" text="Go Back" />
    </children>
 </AnchorPane>
